@@ -67,4 +67,25 @@ a:hover {
     padding: 0.5em;
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
+
+/* Estilos para telas pequenas */
+.moment {
+    width: 100%;
+}
+
+/* Estilos para telas médias */
+@media (min-width: 576px) {
+    .moment {
+        width: 48%; /* ou ajuste conforme necessário para exibir 2 momentos por linha */
+    }
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 768px) {
+    .moment {
+        width: 32%; /* ou ajuste conforme necessário para exibir 3 momentos por linha */
+    }
+}
+
